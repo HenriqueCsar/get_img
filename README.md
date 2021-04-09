@@ -8,4 +8,4 @@ EXAMPLE
 
 const img = require('img');
 
-img.get_img('https://trello.com/', '.svg')  // this returns the image url in console.log
+img.get_img('website', '.svg')  // this returns the image url in console.log
