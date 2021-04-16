@@ -24,5 +24,5 @@ function get_img(url, tipo) {
     });
 
 }
-
+//Exportar img para importar em outro lugar
 exports.get_img = get_img
