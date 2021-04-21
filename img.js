@@ -4,11 +4,11 @@ var request = require('request');
 
 function get_img(url, tipo) {
 
-    request(url, function resultados (error,response, body) {
+    request(url, function (error,response, body) => {
     if (response.statusCode == 200) {
         const https = body
 
-        //src
+        //BUSCA PELO INDICE
         const types = https.indexOf(tipo)
 
 
