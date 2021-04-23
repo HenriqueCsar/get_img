@@ -4,7 +4,7 @@ var request = require('request');
 
 function get_img(url, tipo) {
 
-    request(url, (error,response, body) => {
+    request(url, (response, body) => {
     if (response.statusCode == 200) {
         const https = body
 
