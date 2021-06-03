@@ -1,6 +1,7 @@
+//importando request
 var request = require('request');
 
-///Pegando fotos
+///Pegando arquivos
 
 function get_img(url, tipo) {
 
